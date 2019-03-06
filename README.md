@@ -1,11 +1,11 @@
 # MutaBindv2.0
 
 ## Files:
-  #### SkempiS_WithModelFeatures.txt	Training set used for developing MutaBindS.
+  #### SkempiS_WithModelFeatures.txt is training set used for developing MutaBindS.
   ###### Forward (“SkempiS.F”) includes 2504 destabilizing and 712 stabilizing single mutations with 94 neutral mutations. 
   ###### Reverse ("SkempiS.R") includes 712 destabilizing and 2504 stabilizing single mutations with 94 neutral mutations.
   
-  #### SkempiM_WithModelFeatures.txt	Training set used for developing MutaBindM.
+  #### SkempiM_WithModelFeatures.txt is training set used for developing MutaBindM.
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing single mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 290 destabilizing and 1075 stabilizing single mutations with 6 neutral mutations.
 
@@ -20,4 +20,4 @@
   #### label_dataset: 'forward' means the dataset SkempiS.F/SkempiM.F(wt->mut), 'reverse' means the dataset SkempiS.R/SkempiM.R(mut->wt).
 
 ## Code:
-  #### BuildModel.R 	the script for building model .
+  #### BuildModel.R is the script for building model .

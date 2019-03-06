@@ -14,8 +14,8 @@
   #### Partner1: Protein chains constituting one of the interaction partner. 
   #### Partner2: Protein chains constituting the other one of the interaction partner. 
   #### Mutated Chain: Protein chain with mutation.
-  #### Mutation: The first character is one letter amino acid code for the wild-type residue, the second to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
-  #### Mutation: The first character is one letter amino acid code for the wild-type residue, the second character is the mutated chain, the third to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
+  #### Mutation(SkempiS_WithModelFeatures.txt): The first character is one letter amino acid code for the wild-type residue, the second to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
+  #### Mutation(SkempiM_WithModelFeatures.txt): The first character is one letter amino acid code for the wild-type residue, the second character is the mutated chain, the third to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
   #### DDGexp: Experimental changes of binding affinity upon mutations (in kcal/mol).
   #### label_dataset: 'forward' means the dataset SkempiS.F/SkempiM.F(wt->mut), 'reverse' means the dataset SkempiS.R/SkempiM.R(mut->wt).
 

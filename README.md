@@ -5,7 +5,7 @@
   ###### Forward (“SkempiS.F”) includes 2504 destabilizing and 712 stabilizing single mutations with 94 neutral mutations. Reverse ("SkempiS.R") includes 712 destabilizing and 2504 stabilizing single mutations with 94 neutral mutations.
   
   #### SkempiM_WithModelFeatures.txt	Training set used for developing MutaBindM.
-  ###### ###### Forward (“SkempiM.F”) includes 1071 destabilizing and 671 stabilizing single mutations with 6 neutral mutations. Reverse ("SkempiM.R") includes 671 destabilizing and 1071 stabilizing single mutations with 6 neutral mutations.
+  ###### Forward (“SkempiM.F”) includes 1071 destabilizing and 671 stabilizing single mutations with 6 neutral mutations. Reverse ("SkempiM.R") includes 671 destabilizing and 1071 stabilizing single mutations with 6 neutral mutations.
 
 ## Terms in the files:
   #### PDB id: The PDB entry of the complex.

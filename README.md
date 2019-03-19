@@ -9,6 +9,15 @@
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing single mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 290 destabilizing and 1075 stabilizing single mutations with 6 neutral mutations.
 
+  #### SkempiS_4191.txt is single mutation training set used in MutaBindv2.0.
+  ###### Forward (“SkempiS.F”) includes 2504 destabilizing and 712 stabilizing single mutations with 94 neutral mutations. 
+  ###### Reverse ("SkempiS.R") includes 881 stabilizing single mutations with 94 neutral mutations.
+  
+  #### SkempiM_1752.txt is multiple mutations training set used in MutaBindv2.0.
+  ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing single mutations with 6 neutral mutations. 
+  ###### Reverse ("SkempiM.R") includes 381 stabilizing single mutations with 6 neutral mutations.
+
+
 ## Terms in the files:
   #### PDB id: The PDB entry of the complex.
   #### Partner1: Protein chains constituting one of the interaction partner. 

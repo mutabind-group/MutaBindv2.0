@@ -16,6 +16,13 @@
   #### SkempiM_1752.txt is multiple mutations training set used in MutaBindv2.0.
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing single mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 381 stabilizing single mutations.
+  
+  #### 1.O.2+1.O.2.R.txt is training set used in develop method MutaBindS to test on 2.D.1.
+  ###### Forward (“SkempiS.F”) includes 1218 destabilizing and 322 stabilizing single mutations with 22 neutral mutations. 
+  ###### Reverse ("SkempiS.R") includes 354 stabilizing single mutations.
+  
+  #### 2.D.1.txt is multiple mutations training set used in MutaBindv2.0.
+  ###### Mutations in this file all come from “SkempiS.F”, includes 1286 destabilizing and 390 stabilizing single mutations with 72 neutral mutations. 
 
 
 ## Terms in the files:
@@ -27,6 +34,10 @@
   #### Mutation(SkempiM_WithModelFeatures.txt): The first character is one letter amino acid code for the wild-type residue, the second character is the mutated chain, the third to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
   #### DDGexp: Experimental changes of binding affinity upon mutations (in kcal/mol).
   #### label_dataset: 'forward' means the dataset SkempiS.F/SkempiM.F(wt->mut), 'reverse' means the dataset SkempiS.R/SkempiM.R(mut->wt).
+  #### BeAtMuSiC: Using BeAtMuSiC to predict changes of binding affinity upon mutations (in kcal/mol).
+  #### FoldX_bind: Using FoldX to predict changes of binding affinity upon mutations (in kcal/mol).
+  #### MutaBind: Using MutaBind to predict changes of binding affinity upon mutations (in kcal/mol).
+  #### MutaBindS: Build model on "1.O.2+1.O.2.R" and then test on 2.D.1.
 
 ## Code:
   #### BuildModel.R is the script for building model .

@@ -24,7 +24,7 @@
   #### 2.D.1.txt is single mutations training set used in MutaBindv2.0 that not in MutaBindv1.0.
   ###### Mutations in this file all come from “SkempiS.F”, includes 1286 destabilizing and 390 stabilizing single mutations with 72 neutral mutations. 
   
-  #### SkempiM.F_Foldx.txt is the multiple test set used to test FoldX.
+  #### SkempiM.F_Foldx.txt is the data set from SkempiM used to test FoldX.
   ###### Mutations in this file all come from “SkempiS.F”, includes 1075 destabilizing and 290 stabilizing multiple mutations with 6 neutral mutations. 
   
   #### SkempiS_CV.txt is the training and test set used in MutaBindS for crossvalidation.

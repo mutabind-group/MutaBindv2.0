@@ -52,7 +52,7 @@
   #### MutaBindS(2.D.1.txt): Build model on "1.O.2+1.O.2.R" and then test on 2.D.1.
   #### MutaBindS(SkempiS_CV.txt): Training and test on SkempiS.
   #### MutaBindS_CV4: Leave-one-complex-out on SkempiS.
-  #### MutaBindS_CV5): Leave-one-binding-site-out on SkempiS.
+  #### MutaBindS_CV5: Leave-one-binding-site-out on SkempiS.
   #### MutaBindM: Training and test on SkempiS.
   #### MutaBindM: Leave-one-complex-out on SkempiM.
   #### MutaBindM: Leave-one-binding-site-out on SkempiM.

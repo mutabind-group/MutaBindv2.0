@@ -21,7 +21,7 @@
   ###### Forward (“SkempiS.F”) includes 1218 destabilizing and 322 stabilizing single mutations with 22 neutral mutations. 
   ###### Reverse ("SkempiS.R") includes 354 stabilizing single mutations.
   
-  #### 2.D.1.txt is multiple mutations training set used in MutaBindv2.0.
+  #### 2.D.1.txt is single mutations training set used in MutaBindv2.0 that not in MutaBindv1.0.
   ###### Mutations in this file all come from “SkempiS.F”, includes 1286 destabilizing and 390 stabilizing single mutations with 72 neutral mutations. 
   
   #### SkempiM.F_Foldx.txt is the multiple test set used to test FoldX.

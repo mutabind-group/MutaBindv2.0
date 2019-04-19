@@ -9,11 +9,11 @@
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing multiple mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 290 destabilizing and 1075 stabilizing multiple mutations with 6 neutral mutations.
 
-  #### SkempiS_4191.txt is single mutation training set used in MutaBindv2.0.
+  #### SkempiS_4191.txt is single mutation training set used in MutaBindv2.0.  !!! update
   ###### Forward (“SkempiS.F”) includes 2504 destabilizing and 712 stabilizing single mutations with 94 neutral mutations. 
   ###### Reverse ("SkempiS.R") includes 881 stabilizing single mutations.
   
-  #### SkempiM_1752.txt is multiple mutations training set used in MutaBindv2.0.
+  #### SkempiM_1752.txt is multiple mutations training set used in MutaBindv2.0.  !!! update
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing multiple mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 381 stabilizing single mutations.
   
@@ -62,3 +62,5 @@
 ## Code:
   #### BuildModel.R is the script for building model.
   #### Table1.R is the script for Table1 in the paper.
+  #### Produce2.D.1.R is the script for producing predicted values for each pdb(type).
+  #### Produce.CV.py is the script for merge the predicted values.

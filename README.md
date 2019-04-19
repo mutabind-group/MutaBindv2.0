@@ -62,5 +62,6 @@
 ## Code:
   #### BuildModel.R is the script for building model.
   #### Table1.R is the script for Table1 in the paper.
-  #### Produce2.D.1.R is the script for producing predicted values for each pdb(type).
+  #### Produce2.D.1.R is the script for producing MutaBind and MutaBindS in 2.D.1.txt.
+  #### CV.R is the script for producing predicted values for each pdb(type).
   #### Produce.CV.py is the script for merge the predicted values.

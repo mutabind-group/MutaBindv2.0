@@ -24,11 +24,8 @@ cor.test(test$DDGexp,test$MutaBind)
 
 ## 1O2+1O2R(MutaBindS)
 train.f <- read.csv(file='1.O.2+1.O.2.R.txt',header = TRUE, sep = '\t')
-label <- 'DDGexp~dE_vdw_wt+dE_vdw_mut+dG_solv_mut+dG_solv_wt+dPro_mut+dPro_wt+SA_com_wt+SA_part_wt+CS+ddG_fold'
-train.f.mlr <- lm(as.formula(label),data=train.f)
+label <- 'DDGexp~ddE_vdw+ddG_solv+ddG_fold+SA_com_wt+SA_part_wt+CS+N_cont_wt'
 set.seed(100)
 train.f.rf <- randomForest(as.formula(label), data = train.f)
-test$mlr_pred <- predict(train.f.mlr,test)
-test$rf_pred <-  predict(train.f.rf,test)
-test$MutaBindS <- (test$mlr_pred+test$rf_pred)/2
+test$MutaBindS <-  predict(train.f.rf,test)
 cor.test(test$DDGexp,test$MutaBindS)

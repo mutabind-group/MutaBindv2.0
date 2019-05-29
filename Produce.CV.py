@@ -10,7 +10,7 @@ fileinputpath = 'C:/Users/ChenDouDou/Downloads/MutaBindv2.0-master/'
 
 file_list = os.listdir(fileinputpath + 'CrossValidation/')
 
-filetype_list = ['MLR_LOO','RF_LOO','MLR_LBSO','RF_LBSO']
+filetype_list = ['RF_LOO','RF_LBSO']
 Allprediction = defaultdict(list)
 for filetype in filetype_list:
     files = [item for item in file_list if item.startswith(filetype)]
@@ -35,10 +35,10 @@ for filetype in filetype_list:
     else:
         print filetype,'not all muts taken as test!!!'
 
-fr = open(fileinputpath+'SkempiS_4191.txt','r')  # SkempiM_1752
+fr = open(fileinputpath+'SkempiS.txt','r')  # SkempiM_1752
 title = fr.next()
 
-fpred = open(fileinputpath+'SkempiS_4191_addCV.txt','w')  # SkempiM_1752_addCV
+fpred = open(fileinputpath+'SkempiS_addCV.txt','w')  # SkempiM_1752_addCV
 newtitle = title.strip()+'\t'+'\t'.join(filetype_list)+'\n'
 fpred.write(newtitle)
 

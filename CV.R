@@ -5,12 +5,12 @@ library('randomForest')
 library('stringr')
 rm(list=ls())
 
-f<-read.csv(file='SkempiM_1752.txt',header = TRUE, sep = '\t')
+f<-read.csv(file='SkempiM.txt',header = TRUE, sep = '\t')
 # rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutated.Chain,f$Mutation,f$label_dataset,sep = '_')  # SkempiS
 rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutation,f$label_dataset,sep = '_')  # SkempiM
 
-# label <- 'DDGexp~dE_vdw_wt+dE_vdw_mut+dG_solv_mut+dG_solv_wt+dPro_mut+dPro_wt+SA_com_wt+SA_part_wt+CS+ddG_fold'         # model features of single mutation
-label <- 'DDGexp~dE_vdw_wt+dE_vdw_mut+dG_solv_mut+dG_solv_wt+ddG_fold+CS+ddE_elec_.site.site.+ddrSA'                      # model features of multiple mutation
+# label <- 'DDGexp~ddE_vdw+ddG_solv+ddG_fold+SA_com_wt+SA_part_wt+CS+N_cont_wt'  # model features of single mutation
+label <- 'DDGexp~ddE_vdw+ddG_solv+ddG_fold+SA_com_wt+SA_part_wt+CS+E_cont_wt'  # model features of multiple mutation
 
 #### Leave-One-Complex-Out #####
 pdblist <- unique(f$PDB.id)

@@ -44,8 +44,8 @@ fpred.write(newtitle)
 
 for line in fr:
     newline = line.strip().split('\t')
-    # info = newline[0]+'_'+newline[1]+'_'+newline[2]+'_'+newline[3]+'_'+newline[4]+'_'+newline[6]  # SkempiS
-    info = newline[0]+'_'+newline[1]+'_'+newline[2]+'_'+newline[3]+'_'+newline[5]  # SkempiM
+    # info = newline[0]+'_'+newline[1]+'_'+newline[2]+'_'+newline[3]+'_'+newline[5]+'_'+newline[7]  # SkempiS
+    info = newline[0]+'_'+newline[1]+'_'+newline[2]+'_'+newline[4]+'_'+newline[6]  # SkempiM
     row = line.strip()+'\t'+'\t'.join(Allprediction[info])+'\n'
     fpred.write(row)
 

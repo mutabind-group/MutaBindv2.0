@@ -1,11 +1,11 @@
 # MutaBindv2.0
 
 ## Files:
-  #### SkempiS.txt is single mutation training set used in MutaBindv2.0.  !!! update
+  #### SkempiS.txt is single mutation training set used in MutaBindv2.0.  
   ###### Forward (“SkempiS.F”) includes 2504 destabilizing and 712 stabilizing single mutations with 94 neutral mutations. 
   ###### Reverse ("SkempiS.R") includes 881 stabilizing single mutations.
   
-  #### SkempiM.txt is multiple mutations training set used in MutaBindv2.0.  !!! update
+  #### SkempiM.txt is multiple mutations training set used in MutaBindv2.0.  
   ###### Forward (“SkempiM.F”) includes 1075 destabilizing and 290 stabilizing multiple mutations with 6 neutral mutations. 
   ###### Reverse ("SkempiM.R") includes 381 stabilizing single mutations.
   
@@ -26,8 +26,8 @@
   #### Partner1: Protein chains constituting one of the interaction partner. 
   #### Partner2: Protein chains constituting the other one of the interaction partner. 
   #### Mutated Chain: Protein chain with mutation.
-  #### Mutation(SkempiS.txt): The first character is one letter amino acid code for the wild-type residue, the second to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
-  #### Mutation(SkempiM.txt): The first character is one letter amino acid code for the wild-type residue, the second character is the mutated chain, the third to penultimate characters indicate residue number, and the final character indicates the mutant amino acid.
+  #### Mutation(s)_PDB: The location in this column is exactly the location in RCSB PDB file.
+  #### Mutation(s)_cleaned: The location in this column is the location Skempi renumbering the RCSB PDB file.
   #### DDGexp: Experimental changes of binding affinity upon mutations (in kcal/mol).
   #### label_dataset: 'forward' means the dataset SkempiS.F/SkempiM.F(wt->mut), 'reverse' means the dataset SkempiS.R/SkempiM.R(mut->wt).
   #### BeAtMuSiC: Using BeAtMuSiC to predict changes of binding affinity upon mutations (in kcal/mol).

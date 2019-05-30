@@ -6,8 +6,8 @@ library('stringr')
 rm(list=ls())
 
 f<-read.csv(file='SkempiM.txt',header = TRUE, sep = '\t')
-# rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutated.Chain,f$Mutation,f$label_dataset,sep = '_')  # SkempiS
-rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutation,f$label_dataset,sep = '_')  # SkempiM
+# rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutated.Chain,f$Mutation.s._cleaned,f$label_dataset,sep = '_')  # SkempiS
+rownames(f) <- paste(f$PDB.id,f$Partner1,f$Partner2,f$Mutation.s._cleaned,f$label_dataset,sep = '_')  # SkempiM
 
 # label <- 'DDGexp~ddE_vdw+ddG_solv+ddG_fold+SA_com_wt+SA_part_wt+CS+N_cont_wt'  # model features of single mutation
 label <- 'DDGexp~ddE_vdw+ddG_solv+ddG_fold+SA_com_wt+SA_part_wt+CS+E_cont_wt'  # model features of multiple mutation
